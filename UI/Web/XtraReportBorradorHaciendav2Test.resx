@@ -1,0 +1,1657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="xrLabel139.ExpressionBindings" xml:space="preserve">
+    <value>(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
+) *0.13
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
+
+) *0.8
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
+) *0.4
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
+) *0.2
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]
+
+) *0.1
+)</value>
+  </data>
+  <data name="xrTableCell340.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_1]
++
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_13]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_8]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_4]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_2]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_1]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_1]
++
+
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_1]
++
+
+
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_13]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_8]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_4]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_2]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_1]</value>
+  </data>
+  <data name="xrTableCell344.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_1]
++
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_13]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_8]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_4]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_2]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_1]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_1]
++
+
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_1]
++
+
+
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_13]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_8]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_4]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_2]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_1]</value>
+  </data>
+  <data name="xrTableCell70.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
+) *0.13</value>
+  </data>
+  <data name="xrTableCell335.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
+
+) *0.08</value>
+  </data>
+  <data name="xrTableCell336.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
+) *0.04</value>
+  </data>
+  <data name="xrTableCell337.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
+) *0.02</value>
+  </data>
+  <data name="xrTableCell338.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]
+
+) *0.01</value>
+  </data>
+  <data name="xrLabel38.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]+ [MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel37.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]</value>
+  </data>
+  <data name="xrLabel36.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel35.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]
+
++
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1] +
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Compra_Bienes_SinDerechoCreditoFiscal]</value>
+  </data>
+  <data name="xrLabel21.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrTableCell42.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroVentas].[Exportacion_Bienes]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Exportacion_Servicios]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[VentaLocal_Bienes]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[ServiciosPrestados_Local]</value>
+  </data>
+  <data name="xrLabel16.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrTableCell342.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]</value>
+  </data>
+  <data name="xrTableCell345.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]</value>
+  </data>
+  <data name="xrTableCell346.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]</value>
+  </data>
+  <data name="xrTableCell347.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]</value>
+  </data>
+  <data name="xrTableCell348.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <metadata name="SQLBorrador02_290003.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 73</value>
+  </metadata>
+  <data name="SQLBorrador02_290003.ResultSchemaSerializable" xml:space="preserve">
+    <value>PERhdGFTZXQgTmFtZT0iU1FMQm9ycmFkb3IwMl8yOTAwMDMiPjxWaWV3IE5hbWU9Ik1vbml0b3JGX1NQQm9ycmFkb3JIYWNpZW5kYV9MaWJyb1ZlbnRhcyI+PEZpZWxkIE5hbWU9IkNpYSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iRmVjaGFJbmljaW8iIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkZlY2hhRmluIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJQZXJpb2RvIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2EiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDYW50aWRhZCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iVmVudGEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfMSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfOCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9CaWVuZXMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0JpZW5lc0NhcGl0YWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlZlbnRhX1NlcnZpY2lvcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iVmVudGFfVXNvQ29uc3VtbyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iRXhwb3J0YWNpb25fQmllbmVzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJFeHBvcnRhY2lvbl9TZXJ2aWNpb3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlZlbnRhTG9jYWxfQmllbmVzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NQcmVzdGFkb3NfTG9jYWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX1ZlbnRhc19UcmFuc2FjY2lvbmVzX0FmZWN0YV8xIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19WZW50YXNfVHJhbnNhY2Npb25lc19BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fVmVudGFzX1RyYW5zYWNjaW9uZXNfQWZlY3RhXzQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX1ZlbnRhc19UcmFuc2FjY2lvbmVzX0FmZWN0YV84IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19WZW50YXNfVHJhbnNhY2Npb25lc19BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fRGV2b2x1Y2lvbmVzX1ZlbnRhX0FmZWN0YV8xIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0Rldm9sdWNpb25lc19WZW50YV9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19EZXZvbHVjaW9uZXNfVmVudGFfQWZlY3RhXzQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fRGV2b2x1Y2lvbmVzX1ZlbnRhX0FmZWN0YV84IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0Rldm9sdWNpb25lc19WZW50YV9BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PC9WaWV3PjxWaWV3IE5hbWU9Ik1vbml0b3JGX1NQQm9ycmFkb3JIYWNpZW5kYV9MaWJyb0NvbXByYXMiPjxGaWVsZCBOYW1lPSJDaWEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhRGVzY3JpcGNpb24iIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNhbnRpZGFkQ29tcHJhZGEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ik1vbnRvU3VidG90YWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRlc2N1ZW50b0FwbGljYWRvIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b0NvbnN1bW8iIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ikl2YUZhY3R1cmFkbyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iT3Ryb3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ik1vbnRvVG90YWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IklWQVBhZ2FkbyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQmFzZUltcG9uaWJsZSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iT3Ryb3NJbXB1ZXN0b3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ikl2YUFjcmVkaXRhYmxlIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJdmFHYXN0b0FwbGljYWJsZSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGUiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvciIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8xIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzIiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV84IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfMSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNDYXBpdGFsT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzIiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFTZXJ2aWNpb3NPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfOCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfU2luRGVyZWNob0NyZWRpdG9GaXNjYWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfRXhlbnRvcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19FeGVudG9zX0xvY2FsZXMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfRXhlbnRvc19JbXBvcnRhZG9zIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFfQmllbmVzX05vU3VqZXRvcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1N1amV0b3NfTG9jYWxlcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1N1amV0b3NfSW1wb3J0YWRvcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1JlbGFjaW9uYWRvc0FjdGl2aWRhZCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1JlbGFjaW9uYWRvc0FjdGl2aWRhZF9Mb2NhbGVzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFfQmllbmVzX05vUmVsYWNpb25hZG9zQWN0aXZpZGFkX0ltcG9ydGFkb3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0xvY2FsZXNfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19Mb2NhbGVzX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfTG9jYWxlc19BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0xvY2FsZXNfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19Mb2NhbGVzX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0xvY2FsZXNfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfTG9jYWxlc19BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvbkJpZW5lc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvbkJpZW5lc19Mb2NhbGVzX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0V4dGVyaW9yX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0xvY2FsZXNfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfTG9jYWxlc19BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0xvY2FsZXNfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfRXh0ZXJpb3JfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfTG9jYWxlc19BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvblNlcnZpY2lvc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvblNlcnZpY2lvc19Mb2NhbGVzX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0V4dGVyaW9yX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0xvY2FsZXNfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfRXh0ZXJpb3JfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfTG9jYWxlc19BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjwvVmlldz48VmlldyBOYW1lPSJNb25pdG9yRl9TUEJvcnJhZG9ySGFjaWVuZGFfU2VydmljaW9zRXh0ZXJpb3IiPjxGaWVsZCBOYW1lPSJDaWEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhRGVzY3JpcGNpb24iIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNhbnRpZGFkQ29tcHJhZGEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ik1vbnRvU3VidG90YWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRlc2N1ZW50b0FwbGljYWRvIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b0NvbnN1bW8iIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ikl2YUZhY3R1cmFkbyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iT3Ryb3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ik1vbnRvVG90YWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IklWQVBhZ2FkbyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQmFzZUltcG9uaWJsZSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iT3Ryb3NJbXB1ZXN0b3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ikl2YUFjcmVkaXRhYmxlIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJdmFHYXN0b0FwbGljYWJsZSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFTZXJ2aWNpb3NPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48L1ZpZXc+PFZpZXcgTmFtZT0iTW9uaXRvckZfU1BCb3JyYWRvckhhY2llbmRhX0dlbmVyYWxfQWN0aXZpZGFkIj48RmllbGQgTmFtZT0iQ2lhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkZlY2hhSW5pY2lvIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkZlY2hhRmluIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlBlcmlvZG8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhXzI5MDAwMyIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYV80MDEwMDIiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FfNzEyMjAxIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhXzc0MTQwMiIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uXzI5MDAwMyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbl80MDEwMDIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhRGVzY3JpcGNpb25fNzEyMjAxIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uXzc0MTQwMiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbmNyZW1lbnRvQmFzZUltcG9uaWJsZV9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGV2b2x1Y2lvbmVzX2FfcHJvdmVlZG9yZXNfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbmNyZW1lbnRvQmFzZUltcG9uaWJsZV9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGV2b2x1Y2lvbmVzX2FfcHJvdmVlZG9yZXNfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbmNyZW1lbnRvQmFzZUltcG9uaWJsZV9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGV2b2x1Y2lvbmVzX2FfcHJvdmVlZG9yZXNfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbmNyZW1lbnRvQmFzZUltcG9uaWJsZV9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGV2b2x1Y2lvbmVzX2FfcHJvdmVlZG9yZXNfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbmNyZW1lbnRvQmFzZUltcG9uaWJsZV9BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjwvVmlldz48L0RhdGFTZXQ+</value>
+  </data>
+  <data name="xrTableCell800.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
+) *0.13</value>
+  </data>
+  <data name="xrTableCell801.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
+
+) *0.08</value>
+  </data>
+  <data name="xrTableCell802.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
+) *0.04</value>
+  </data>
+  <data name="xrTableCell803.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
+) *0.02</value>
+  </data>
+  <data name="xrTableCell804.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]
+
+) *0.01</value>
+  </data>
+  <data name="xrTableCell806.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_1]
++
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_13]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_8]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_4]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_2]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_1]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_1]
++
+
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_1]
++
+
+
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_13]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_8]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_4]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_2]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_1]</value>
+  </data>
+  <data name="xrTableCell808.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_1]
++
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_13]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_8]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_4]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_2]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_1]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_1]
++
+
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_1]
++
+
+
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_13]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_8]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_4]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_2]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_1]</value>
+  </data>
+  <data name="xrLabel137.ExpressionBindings" xml:space="preserve">
+    <value>(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
+) *0.13
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
+
+) *0.8
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
+) *0.4
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
+) *0.2
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]
+
+) *0.1
+)</value>
+  </data>
+  <data name="xrTableCell354.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]</value>
+  </data>
+  <data name="xrTableCell355.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]</value>
+  </data>
+  <data name="xrTableCell356.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]</value>
+  </data>
+  <data name="xrTableCell357.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]</value>
+  </data>
+  <data name="xrTableCell358.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel50.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrTableCell378.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroVentas].[Exportacion_Bienes]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Exportacion_Servicios]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[VentaLocal_Bienes]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[ServiciosPrestados_Local]</value>
+  </data>
+  <data name="xrLabel56.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel66.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]
+
++
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1] +
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Compra_Bienes_SinDerechoCreditoFiscal]</value>
+  </data>
+  <data name="xrLabel67.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel68.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]</value>
+  </data>
+  <data name="xrLabel69.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]+ [MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <metadata name="SQLBorrador03_401002.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 129</value>
+  </metadata>
+  <data name="SQLBorrador03_401002.ResultSchemaSerializable" xml:space="preserve">
+    <value>PERhdGFTZXQgTmFtZT0iU1FMQm9ycmFkb3IwM180MDEwMDIiPjxWaWV3IE5hbWU9Ik1vbml0b3JGX1NQQm9ycmFkb3JIYWNpZW5kYV9MaWJyb0NvbXByYXMiPjxGaWVsZCBOYW1lPSJDaWEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhRGVzY3JpcGNpb24iIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNhbnRpZGFkQ29tcHJhZGEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ik1vbnRvU3VidG90YWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRlc2N1ZW50b0FwbGljYWRvIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b0NvbnN1bW8iIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ikl2YUZhY3R1cmFkbyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iT3Ryb3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ik1vbnRvVG90YWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IklWQVBhZ2FkbyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQmFzZUltcG9uaWJsZSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iT3Ryb3NJbXB1ZXN0b3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9Ikl2YUFjcmVkaXRhYmxlIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJdmFHYXN0b0FwbGljYWJsZSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGUiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvciIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8xIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzIiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV84IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfMSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNDYXBpdGFsT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzIiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFTZXJ2aWNpb3NPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfOCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfU2luRGVyZWNob0NyZWRpdG9GaXNjYWwiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfRXhlbnRvcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19FeGVudG9zX0xvY2FsZXMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfRXhlbnRvc19JbXBvcnRhZG9zIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFfQmllbmVzX05vU3VqZXRvcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1N1amV0b3NfTG9jYWxlcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1N1amV0b3NfSW1wb3J0YWRvcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1JlbGFjaW9uYWRvc0FjdGl2aWRhZCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1JlbGFjaW9uYWRvc0FjdGl2aWRhZF9Mb2NhbGVzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFfQmllbmVzX05vUmVsYWNpb25hZG9zQWN0aXZpZGFkX0ltcG9ydGFkb3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0xvY2FsZXNfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19Mb2NhbGVzX0FmZWN0YV8yIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfTG9jYWxlc19BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0xvY2FsZXNfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19Mb2NhbGVzX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0xvY2FsZXNfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfTG9jYWxlc19BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvbkJpZW5lc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvbkJpZW5lc19Mb2NhbGVzX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0V4dGVyaW9yX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0xvY2FsZXNfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfTG9jYWxlc19BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0xvY2FsZXNfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfRXh0ZXJpb3JfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfTG9jYWxlc19BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvblNlcnZpY2lvc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvblNlcnZpY2lvc19Mb2NhbGVzX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0V4dGVyaW9yX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0xvY2FsZXNfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfRXh0ZXJpb3JfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfTG9jYWxlc19BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjwvVmlldz48VmlldyBOYW1lPSJNb25pdG9yRl9TUEJvcnJhZG9ySGFjaWVuZGFfTGlicm9WZW50YXMiPjxGaWVsZCBOYW1lPSJDaWEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkZlY2hhSW5pY2lvIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJGZWNoYUZpbiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iUGVyaW9kbyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ2FudGlkYWQiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlZlbnRhIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0byIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzEiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX0FmZWN0YV8xIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfMiIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fQWZlY3RhXzIiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19BZmVjdGFfNCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzgiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX0FmZWN0YV84IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfMTMiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX0FmZWN0YV8xMyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iVmVudGFfQmllbmVzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9CaWVuZXNDYXBpdGFsIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9TZXJ2aWNpb3MiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IlZlbnRhX1Vzb0NvbnN1bW8iIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkV4cG9ydGFjaW9uX0JpZW5lcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iRXhwb3J0YWNpb25fU2VydmljaW9zIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJWZW50YUxvY2FsX0JpZW5lcyIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zUHJlc3RhZG9zX0xvY2FsIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19WZW50YXNfVHJhbnNhY2Npb25lc19BZmVjdGFfMSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fVmVudGFzX1RyYW5zYWNjaW9uZXNfQWZlY3RhXzIiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX1ZlbnRhc19UcmFuc2FjY2lvbmVzX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19WZW50YXNfVHJhbnNhY2Npb25lc19BZmVjdGFfOCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fVmVudGFzX1RyYW5zYWNjaW9uZXNfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0Rldm9sdWNpb25lc19WZW50YV9BZmVjdGFfMSIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19EZXZvbHVjaW9uZXNfVmVudGFfQWZlY3RhXzIiIFR5cGU9IlVua25vd24iIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fRGV2b2x1Y2lvbmVzX1ZlbnRhX0FmZWN0YV80IiBUeXBlPSJVbmtub3duIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0Rldm9sdWNpb25lc19WZW50YV9BZmVjdGFfOCIgVHlwZT0iVW5rbm93biIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19EZXZvbHVjaW9uZXNfVmVudGFfQWZlY3RhXzEzIiBUeXBlPSJVbmtub3duIiAvPjwvVmlldz48VmlldyBOYW1lPSJNb25pdG9yRl9TUEJvcnJhZG9ySGFjaWVuZGFfU2VydmljaW9zRXh0ZXJpb3IiPjxGaWVsZCBOYW1lPSJDaWEiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNhbnRpZGFkQ29tcHJhZGEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik1vbnRvU3VidG90YWwiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRlc2N1ZW50b0FwbGljYWRvIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b0NvbnN1bW8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ikl2YUZhY3R1cmFkbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iT3Ryb3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik1vbnRvVG90YWwiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IklWQVBhZ2FkbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQmFzZUltcG9uaWJsZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iT3Ryb3NJbXB1ZXN0b3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ikl2YUFjcmVkaXRhYmxlIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJdmFHYXN0b0FwbGljYWJsZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFTZXJ2aWNpb3NPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48L1ZpZXc+PFZpZXcgTmFtZT0iTW9uaXRvckZfU1BCb3JyYWRvckhhY2llbmRhX0dlbmVyYWxfQWN0aXZpZGFkIj48RmllbGQgTmFtZT0iQ2lhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkZlY2hhSW5pY2lvIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkZlY2hhRmluIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlBlcmlvZG8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhXzI5MDAwMyIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYV80MDEwMDIiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FfNzEyMjAxIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhXzc0MTQwMiIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uXzI5MDAwMyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbl80MDEwMDIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhRGVzY3JpcGNpb25fNzEyMjAxIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uXzc0MTQwMiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbmNyZW1lbnRvQmFzZUltcG9uaWJsZV9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGV2b2x1Y2lvbmVzX2FfcHJvdmVlZG9yZXNfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbmNyZW1lbnRvQmFzZUltcG9uaWJsZV9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGV2b2x1Y2lvbmVzX2FfcHJvdmVlZG9yZXNfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbmNyZW1lbnRvQmFzZUltcG9uaWJsZV9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGV2b2x1Y2lvbmVzX2FfcHJvdmVlZG9yZXNfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbmNyZW1lbnRvQmFzZUltcG9uaWJsZV9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGV2b2x1Y2lvbmVzX2FfcHJvdmVlZG9yZXNfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbmNyZW1lbnRvQmFzZUltcG9uaWJsZV9BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b0dlbmVyYWRvT3BlcmFjaW9uZXNHcmF2YWRhcyIgVHlwZT0iRGVjaW1hbCIgLz48L1ZpZXc+PC9EYXRhU2V0Pg==</value>
+  </data>
+  <data name="xrTableCell334.ExpressionBindings" xml:space="preserve">
+    <value>Iif((	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&lt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])*-1 ,0 )*-1+	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&gt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo]) ,0 )-0+0)&gt;0,(	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&lt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])*-1 ,0 )*-1+	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&gt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo]) ,0 )-0+0),0)</value>
+  </data>
+  <data name="xrTableCell315.ExpressionBindings" xml:space="preserve">
+    <value>
+Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+-
+[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&lt;0
+,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+-
+[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])*-1 ,0 )</value>
+  </data>
+  <data name="xrTableCell317.ExpressionBindings" xml:space="preserve">
+    <value>
+Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+-
+[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&gt;0
+,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+-
+[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo]) ,0 )</value>
+  </data>
+  <data name="xrTableCell323.ExpressionBindings" xml:space="preserve">
+    <value>Iif((	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&lt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])*-1 ,0 )*-1+	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&gt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo]) ,0 )-0+0)&lt;0,-(	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&lt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])*-1 ,0 )*-1+	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&gt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo]) ,0 )-0+0),0)</value>
+  </data>
+  <data name="xrTableCell325.ExpressionBindings" xml:space="preserve">
+    <value>Iif((	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&lt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])*-1 ,0 )*-1+	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&gt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo]) ,0 )-0+0)&gt;0,(	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&lt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])*-1 ,0 )*-1+	Iif(([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo])&gt;0
+	,([MonitorF_SPBorradorHacienda_General].[ImpuestoGeneradoOperacionesGravadas]
+	-
+	[MonitorF_SPBorradorHacienda_General].[TotalCreditosPeriodo]) ,0 )-0+0),0)</value>
+  </data>
+  <data name="xrTableCell894.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
+) *0.13</value>
+  </data>
+  <data name="xrTableCell895.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
+
+) *0.08</value>
+  </data>
+  <data name="xrTableCell896.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
+) *0.04</value>
+  </data>
+  <data name="xrTableCell897.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
+) *0.02</value>
+  </data>
+  <data name="xrTableCell898.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]
+
+) *0.01</value>
+  </data>
+  <data name="xrTableCell900.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_1]
++
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_13]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_8]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_4]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_2]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_1]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_1]
++
+
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_1]
++
+
+
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_13]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_8]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_4]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_2]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_1]</value>
+  </data>
+  <data name="xrTableCell902.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_1]
++
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_13]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_8]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_4]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_2]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_1]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_1]
++
+
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_1]
++
+
+
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_13]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_8]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_4]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_2]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_1]</value>
+  </data>
+  <data name="xrLabel140.ExpressionBindings" xml:space="preserve">
+    <value>(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
+) *0.13
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
+
+) *0.8
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
+) *0.4
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
+) *0.2
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]
+
+) *0.1
+)</value>
+  </data>
+  <data name="xrTableCell502.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]</value>
+  </data>
+  <data name="xrTableCell503.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]</value>
+  </data>
+  <data name="xrTableCell504.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]</value>
+  </data>
+  <data name="xrTableCell505.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]</value>
+  </data>
+  <data name="xrTableCell506.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel82.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrTableCell526.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroVentas].[Exportacion_Bienes]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Exportacion_Servicios]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[VentaLocal_Bienes]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[ServiciosPrestados_Local]</value>
+  </data>
+  <data name="xrLabel88.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel98.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]
+
++
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1] +
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Compra_Bienes_SinDerechoCreditoFiscal]</value>
+  </data>
+  <data name="xrLabel99.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel100.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]</value>
+  </data>
+  <data name="xrLabel101.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]+ [MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <metadata name="SQLBorrador04_712201.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 172</value>
+  </metadata>
+  <data name="SQLBorrador04_712201.ResultSchemaSerializable" xml:space="preserve">
+    <value>PERhdGFTZXQgTmFtZT0iU1FMQm9ycmFkb3IwNF83MTIyMDEiPjxWaWV3IE5hbWU9Ik1vbml0b3JGX1NQQm9ycmFkb3JIYWNpZW5kYV9HZW5lcmFsX0FjdGl2aWRhZCI+PEZpZWxkIE5hbWU9IkNpYSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJGZWNoYUluaWNpbyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJGZWNoYUZpbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJQZXJpb2RvIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYV8yOTAwMDMiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FfNDAxMDAyIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhXzcxMjIwMSIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYV83NDE0MDIiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbl8yOTAwMDMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhRGVzY3JpcGNpb25fNDAxMDAyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uXzcxMjIwMSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbl83NDE0MDIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9HZW5lcmFkb09wZXJhY2lvbmVzR3JhdmFkYXMiIFR5cGU9IkRlY2ltYWwiIC8+PC9WaWV3PjxWaWV3IE5hbWU9Ik1vbml0b3JGX1NQQm9ycmFkb3JIYWNpZW5kYV9MaWJyb0NvbXByYXMiPjxGaWVsZCBOYW1lPSJDaWEiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNhbnRpZGFkQ29tcHJhZGEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik1vbnRvU3VidG90YWwiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRlc2N1ZW50b0FwbGljYWRvIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b0NvbnN1bW8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ikl2YUZhY3R1cmFkbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iT3Ryb3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik1vbnRvVG90YWwiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IklWQVBhZ2FkbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQmFzZUltcG9uaWJsZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iT3Ryb3NJbXB1ZXN0b3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ikl2YUFjcmVkaXRhYmxlIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJdmFHYXN0b0FwbGljYWJsZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGUiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3JlcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3IiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlbWVudG9CYXNlSW1wb25pYmxlX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3JfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlbWVudG9CYXNlSW1wb25pYmxlX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3JfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlbWVudG9CYXNlSW1wb25pYmxlX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3JfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlbWVudG9CYXNlSW1wb25pYmxlX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3JfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlbWVudG9CYXNlSW1wb25pYmxlX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGV2b2x1Y2lvbmVzX2FfcHJvdmVlZG9yZXNfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNDYXBpdGFsT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFTZXJ2aWNpb3NPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNDYXBpdGFsT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNDYXBpdGFsT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFfQmllbmVzX1NpbkRlcmVjaG9DcmVkaXRvRmlzY2FsIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFfQmllbmVzX0V4ZW50b3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfRXhlbnRvc19Mb2NhbGVzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFfQmllbmVzX0V4ZW50b3NfSW1wb3J0YWRvcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1N1amV0b3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfTm9TdWpldG9zX0xvY2FsZXMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfTm9TdWpldG9zX0ltcG9ydGFkb3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfTm9SZWxhY2lvbmFkb3NBY3RpdmlkYWQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfTm9SZWxhY2lvbmFkb3NBY3RpdmlkYWRfTG9jYWxlcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1JlbGFjaW9uYWRvc0FjdGl2aWRhZF9JbXBvcnRhZG9zIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19Mb2NhbGVzX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfTG9jYWxlc19BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0xvY2FsZXNfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0V4dGVyaW9yX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19Mb2NhbGVzX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfTG9jYWxlc19BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvbkJpZW5lc19Mb2NhbGVzX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0xvY2FsZXNfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfTG9jYWxlc19BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvbkJpZW5lc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvbkJpZW5lc19Mb2NhbGVzX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0xvY2FsZXNfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvblNlcnZpY2lvc19Mb2NhbGVzX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0xvY2FsZXNfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfRXh0ZXJpb3JfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfTG9jYWxlc19BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvblNlcnZpY2lvc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvblNlcnZpY2lvc19Mb2NhbGVzX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0xvY2FsZXNfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48L1ZpZXc+PFZpZXcgTmFtZT0iTW9uaXRvckZfU1BCb3JyYWRvckhhY2llbmRhX0xpYnJvVmVudGFzIj48RmllbGQgTmFtZT0iQ2lhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkZlY2hhSW5pY2lvIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkZlY2hhRmluIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlBlcmlvZG8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNhbnRpZGFkIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0JpZW5lcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQmllbmVzQ2FwaXRhbCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfU2VydmljaW9zIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9Vc29Db25zdW1vIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJFeHBvcnRhY2lvbl9CaWVuZXMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkV4cG9ydGFjaW9uX1NlcnZpY2lvcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFMb2NhbF9CaWVuZXMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc1ByZXN0YWRvc19Mb2NhbCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fVmVudGFzX1RyYW5zYWNjaW9uZXNfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX1ZlbnRhc19UcmFuc2FjY2lvbmVzX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19WZW50YXNfVHJhbnNhY2Npb25lc19BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fVmVudGFzX1RyYW5zYWNjaW9uZXNfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX1ZlbnRhc19UcmFuc2FjY2lvbmVzX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19EZXZvbHVjaW9uZXNfVmVudGFfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fRGV2b2x1Y2lvbmVzX1ZlbnRhX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0Rldm9sdWNpb25lc19WZW50YV9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19EZXZvbHVjaW9uZXNfVmVudGFfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fRGV2b2x1Y2lvbmVzX1ZlbnRhX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48L1ZpZXc+PFZpZXcgTmFtZT0iTW9uaXRvckZfU1BCb3JyYWRvckhhY2llbmRhX1NlcnZpY2lvc0V4dGVyaW9yIj48RmllbGQgTmFtZT0iQ2lhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDYW50aWRhZENvbXByYWRhIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJNb250b1N1YnRvdGFsIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXNjdWVudG9BcGxpY2FkbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9Db25zdW1vIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJdmFGYWN0dXJhZG8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik90cm9zIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJNb250b1RvdGFsIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJVkFQYWdhZG8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkJhc2VJbXBvbmlibGUiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik90cm9zSW1wdWVzdG9zIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJdmFBY3JlZGl0YWJsZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSXZhR2FzdG9BcGxpY2FibGUiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFTZXJ2aWNpb3NPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFTZXJ2aWNpb3NPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PC9WaWV3PjwvRGF0YVNldD4=</value>
+  </data>
+  <data name="xrTableCell988.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
+) *0.13</value>
+  </data>
+  <data name="xrTableCell989.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
+
+) *0.08</value>
+  </data>
+  <data name="xrTableCell990.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
+) *0.04</value>
+  </data>
+  <data name="xrTableCell991.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
+) *0.02</value>
+  </data>
+  <data name="xrTableCell992.ExpressionBindings" xml:space="preserve">
+    <value>([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]
+
+) *0.01</value>
+  </data>
+  <data name="xrTableCell994.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_1]
++
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_13]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_8]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_4]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_2]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_1]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_1]
++
+
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_1]
++
+
+
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_13]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_8]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_4]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_2]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_1]</value>
+  </data>
+  <data name="xrTableCell996.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_CompraBienes_Exterior_Afecta_1]
++
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_13]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_8]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_4]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_2]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Locales_Afecta_1]
++[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionBienes_Exterior_Afecta_1]
++
+
+
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_13]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_13]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_8]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_4]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_4]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_2]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_2]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Locales_Afecta_1]
++ [MonitorF_SPBorradorHacienda_LibroCompras].[Credito_AdquisicionServicios_Exterior_Afecta_1]
++
+
+
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_13]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_8]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_4]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_2]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Credito_Devoluciones_Venta_Afecta_1]</value>
+  </data>
+  <data name="xrLabel142.ExpressionBindings" xml:space="preserve">
+    <value>(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
+) *0.13
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
+
+) *0.8
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
+) *0.4
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
+) *0.2
+)
+
+
++
+
+(([MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]
+
++
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]
+
+) *0.1
+)</value>
+  </data>
+  <data name="xrTableCell650.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]</value>
+  </data>
+  <data name="xrTableCell651.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]</value>
+  </data>
+  <data name="xrTableCell652.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]</value>
+  </data>
+  <data name="xrTableCell653.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]</value>
+  </data>
+  <data name="xrTableCell654.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel114.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrTableCell674.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroVentas].[Exportacion_Bienes]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[Exportacion_Servicios]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[VentaLocal_Bienes]
++
+[MonitorF_SPBorradorHacienda_LibroVentas].[ServiciosPrestados_Local]</value>
+  </data>
+  <data name="xrLabel120.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel130.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]
+
++
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1] +
+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[Compra_Bienes_SinDerechoCreditoFiscal]</value>
+  </data>
+  <data name="xrLabel131.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Exterior_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_13]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_8]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_4]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_2]+[MonitorF_SPBorradorHacienda_ServiciosExterior].[CompraServiciosOperaciones_Exterior_Afecta_1]</value>
+  </data>
+  <data name="xrLabel132.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraBienesCapitalOperaciones_Local_Afecta_1]+
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[CompraServiciosOperaciones_Local_Afecta_1]</value>
+  </data>
+  <data name="xrLabel133.ExpressionBindings" xml:space="preserve">
+    <value>[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroVentas].[Venta_Afecta_1]+ [MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_13]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_13]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_8]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_8]
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_4]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_4]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_2]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_2]
+
++
+
+[MonitorF_SPBorradorHacienda_LibroCompras].[IncrementoBaseImponible_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Devoluciones_a_proveedores_Afecta_1]+[MonitorF_SPBorradorHacienda_LibroCompras].[Servicios_Adquiridos_Exterior_Afecta_1]</value>
+  </data>
+  <metadata name="SQLBorrador05_741402.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 215</value>
+  </metadata>
+  <data name="SQLBorrador05_741402.ResultSchemaSerializable" xml:space="preserve">
+    <value>PERhdGFTZXQgTmFtZT0iU1FMQm9ycmFkb3IwNV83NDE0MDIiPjxWaWV3IE5hbWU9Ik1vbml0b3JGX1NQQm9ycmFkb3JIYWNpZW5kYV9HZW5lcmFsX0FjdGl2aWRhZCI+PEZpZWxkIE5hbWU9IkNpYSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJGZWNoYUluaWNpbyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJGZWNoYUZpbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJQZXJpb2RvIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYV8yOTAwMDMiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FfNDAxMDAyIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhXzcxMjIwMSIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYV83NDE0MDIiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbl8yOTAwMDMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhRGVzY3JpcGNpb25fNDAxMDAyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uXzcxMjIwMSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbl83NDE0MDIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9HZW5lcmFkb09wZXJhY2lvbmVzR3JhdmFkYXMiIFR5cGU9IkRlY2ltYWwiIC8+PC9WaWV3PjxWaWV3IE5hbWU9Ik1vbml0b3JGX1NQQm9ycmFkb3JIYWNpZW5kYV9MaWJyb0NvbXByYXMiPjxGaWVsZCBOYW1lPSJDaWEiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNhbnRpZGFkQ29tcHJhZGEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik1vbnRvU3VidG90YWwiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRlc2N1ZW50b0FwbGljYWRvIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b0NvbnN1bW8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ikl2YUZhY3R1cmFkbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iT3Ryb3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik1vbnRvVG90YWwiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IklWQVBhZ2FkbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQmFzZUltcG9uaWJsZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iT3Ryb3NJbXB1ZXN0b3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ikl2YUFjcmVkaXRhYmxlIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJdmFHYXN0b0FwbGljYWJsZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGUiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3JlcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3IiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlbWVudG9CYXNlSW1wb25pYmxlX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3JfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlbWVudG9CYXNlSW1wb25pYmxlX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3JfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlbWVudG9CYXNlSW1wb25pYmxlX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3JfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlbWVudG9CYXNlSW1wb25pYmxlX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iU2VydmljaW9zX0FkcXVpcmlkb3NfRXh0ZXJpb3JfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkluY3JlbWVudG9CYXNlSW1wb25pYmxlX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iRGV2b2x1Y2lvbmVzX2FfcHJvdmVlZG9yZXNfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNDYXBpdGFsT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzQ2FwaXRhbE9wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFTZXJ2aWNpb3NPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNDYXBpdGFsT3BlcmFjaW9uZXNfTG9jYWxfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19Mb2NhbF9BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0xvY2FsX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYUJpZW5lc0NhcGl0YWxPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhQmllbmVzT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFCaWVuZXNDYXBpdGFsT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFfQmllbmVzX1NpbkRlcmVjaG9DcmVkaXRvRmlzY2FsIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFfQmllbmVzX0V4ZW50b3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfRXhlbnRvc19Mb2NhbGVzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFfQmllbmVzX0V4ZW50b3NfSW1wb3J0YWRvcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1N1amV0b3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfTm9TdWpldG9zX0xvY2FsZXMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfTm9TdWpldG9zX0ltcG9ydGFkb3MiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfTm9SZWxhY2lvbmFkb3NBY3RpdmlkYWQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYV9CaWVuZXNfTm9SZWxhY2lvbmFkb3NBY3RpdmlkYWRfTG9jYWxlcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhX0JpZW5lc19Ob1JlbGFjaW9uYWRvc0FjdGl2aWRhZF9JbXBvcnRhZG9zIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19Mb2NhbGVzX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfTG9jYWxlc19BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0xvY2FsZXNfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0V4dGVyaW9yX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19Mb2NhbGVzX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0NvbXByYUJpZW5lc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19Db21wcmFCaWVuZXNfTG9jYWxlc19BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQ29tcHJhQmllbmVzX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvbkJpZW5lc19Mb2NhbGVzX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0xvY2FsZXNfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfRXh0ZXJpb3JfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25CaWVuZXNfTG9jYWxlc19BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvbkJpZW5lc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvbkJpZW5lc19Mb2NhbGVzX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0xvY2FsZXNfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uQmllbmVzX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvblNlcnZpY2lvc19Mb2NhbGVzX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0xvY2FsZXNfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfRXh0ZXJpb3JfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fQWRxdWlzaWNpb25TZXJ2aWNpb3NfTG9jYWxlc19BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvblNlcnZpY2lvc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19BZHF1aXNpY2lvblNlcnZpY2lvc19Mb2NhbGVzX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0xvY2FsZXNfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0FkcXVpc2ljaW9uU2VydmljaW9zX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48L1ZpZXc+PFZpZXcgTmFtZT0iTW9uaXRvckZfU1BCb3JyYWRvckhhY2llbmRhX0xpYnJvVmVudGFzIj48RmllbGQgTmFtZT0iQ2lhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkZlY2hhSW5pY2lvIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkZlY2hhRmluIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlBlcmlvZG8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkNhbnRpZGFkIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0JpZW5lcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQmllbmVzQ2FwaXRhbCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfU2VydmljaW9zIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9Vc29Db25zdW1vIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJFeHBvcnRhY2lvbl9CaWVuZXMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkV4cG9ydGFjaW9uX1NlcnZpY2lvcyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFMb2NhbF9CaWVuZXMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc1ByZXN0YWRvc19Mb2NhbCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fVmVudGFzX1RyYW5zYWNjaW9uZXNfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX1ZlbnRhc19UcmFuc2FjY2lvbmVzX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJbXB1ZXN0b19WZW50YXNfVHJhbnNhY2Npb25lc19BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9fVmVudGFzX1RyYW5zYWNjaW9uZXNfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkltcHVlc3RvX1ZlbnRhc19UcmFuc2FjY2lvbmVzX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19EZXZvbHVjaW9uZXNfVmVudGFfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fRGV2b2x1Y2lvbmVzX1ZlbnRhX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDcmVkaXRvX0Rldm9sdWNpb25lc19WZW50YV9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ3JlZGl0b19EZXZvbHVjaW9uZXNfVmVudGFfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNyZWRpdG9fRGV2b2x1Y2lvbmVzX1ZlbnRhX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48L1ZpZXc+PFZpZXcgTmFtZT0iTW9uaXRvckZfU1BCb3JyYWRvckhhY2llbmRhX1NlcnZpY2lvc0V4dGVyaW9yIj48RmllbGQgTmFtZT0iQ2lhIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJDYW50aWRhZENvbXByYWRhIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJNb250b1N1YnRvdGFsIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXNjdWVudG9BcGxpY2FkbyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9Db25zdW1vIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJdmFGYWN0dXJhZG8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik90cm9zIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJNb250b1RvdGFsIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJVkFQYWdhZG8iIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkJhc2VJbXBvbmlibGUiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9Ik90cm9zSW1wdWVzdG9zIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJJdmFBY3JlZGl0YWJsZSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSXZhR2FzdG9BcGxpY2FibGUiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFTZXJ2aWNpb3NPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iQ29tcHJhU2VydmljaW9zT3BlcmFjaW9uZXNfRXh0ZXJpb3JfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkNvbXByYVNlcnZpY2lvc09wZXJhY2lvbmVzX0V4dGVyaW9yX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJDb21wcmFTZXJ2aWNpb3NPcGVyYWNpb25lc19FeHRlcmlvcl9BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PC9WaWV3PjwvRGF0YVNldD4=</value>
+  </data>
+  <metadata name="SQLBorrador01_General.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="SQLBorrador01_General.ResultSchemaSerializable" xml:space="preserve">
+    <value>PERhdGFTZXQgTmFtZT0iU1FMQm9ycmFkb3IwMV9HZW5lcmFsIj48VmlldyBOYW1lPSJNb25pdG9yRl9TUEJvcnJhZG9ySGFjaWVuZGFfR2VuZXJhbCI+PEZpZWxkIE5hbWU9IkNpYSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJGZWNoYUluaWNpbyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJGZWNoYUZpbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJQZXJpb2RvIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYV8yOTAwMDMiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FfNDAxMDAyIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhXzcxMjIwMSIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYV83NDE0MDIiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbl8yOTAwMDMiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iQWN0aXZpZGFkRWNvbm9taWNhRGVzY3JpcGNpb25fNDAxMDAyIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IkFjdGl2aWRhZEVjb25vbWljYURlc2NyaXBjaW9uXzcxMjIwMSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJBY3RpdmlkYWRFY29ub21pY2FEZXNjcmlwY2lvbl83NDE0MDIiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJWZW50YV9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iVmVudGFfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlZlbnRhX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzEiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8xIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMSIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzIiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV8yIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfMiIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzQiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV80IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfNCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzgiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IkRldm9sdWNpb25lc19hX3Byb3ZlZWRvcmVzX0FmZWN0YV84IiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJTZXJ2aWNpb3NfQWRxdWlyaWRvc19FeHRlcmlvcl9BZmVjdGFfOCIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW5jcmVtZW50b0Jhc2VJbXBvbmlibGVfQWZlY3RhXzEzIiBUeXBlPSJEZWNpbWFsIiAvPjxGaWVsZCBOYW1lPSJEZXZvbHVjaW9uZXNfYV9wcm92ZWVkb3Jlc19BZmVjdGFfMTMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlNlcnZpY2lvc19BZHF1aXJpZG9zX0V4dGVyaW9yX0FmZWN0YV8xMyIgVHlwZT0iRGVjaW1hbCIgLz48RmllbGQgTmFtZT0iSW1wdWVzdG9HZW5lcmFkb09wZXJhY2lvbmVzR3JhdmFkYXMiIFR5cGU9IkRlY2ltYWwiIC8+PEZpZWxkIE5hbWU9IlRvdGFsQ3JlZGl0b3NQZXJpb2RvIiBUeXBlPSJEZWNpbWFsIiAvPjwvVmlldz48L0RhdGFTZXQ+</value>
+  </data>
+</root>

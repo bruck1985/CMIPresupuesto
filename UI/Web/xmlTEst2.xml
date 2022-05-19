@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="es-CR">
+  <Title Text="Tablero de control" />
+  <DataSources>
+    <OLAPDataSource ComponentName="dashboardOlapDataSource1" Name="Origen de datos OLAP 1" ConnectionName="10.90.124.16\sql2008_CuboVentaInv_DMBI" ConnectionString="provider=msolap;data source=10.90.124.16\sql2008;initial catalog=CuboVentaInv;timeout=1200;Cube Name=DMBI;" />
+    <OLAPDataSource ComponentName="dashboardOlapDataSource2" Name="Origen de datos OLAP 2" ConnectionName="10.90.124.16\sql2008_SSASVentas_VENTAS" ConnectionString="provider=msolap;data source=10.90.124.16\sql2008;initial catalog=SSASVentas;timeout=1200;Cube Name=VENTAS;" />
+    <OLAPDataSource ComponentName="dashboardOlapDataSource3" Name="Origen de datos OLAP 3" ConnectionName="10.90.124.16\sql2008_Adventure Works DW 2008R2_Adventure Works" ConnectionString="provider=msolap;data source=10.90.124.16\sql2008;initial catalog=&quot;Adventure Works DW 2008R2&quot;;timeout=1200;Cube Name=Adventure Works;" />
+  </DataSources>
+  <Parameters>
+    <Parameter Name="P_Meses" Value="" AllowMultiselect="true">
+      <DynamicListLookUpSettings DataSourceName="dashboardOlapDataSource3" ValueMember="[Date].[Month of Year].[Month of Year]" />
+    </Parameter>
+    <Parameter Name="P_Periodo" Value="" AllowMultiselect="true">
+      <DynamicListLookUpSettings DataSourceName="dashboardOlapDataSource1" ValueMember="[Fechas].[Periodo].[Periodo]" />
+    </Parameter>
+  </Parameters>
+  <Items>
+    <Chart ComponentName="chartDashboardItem1" Name="Gr�fico 1" DataSource="dashboardOlapDataSource1">
+      <InteractivityOptions MasterFilterMode="Single" IsDrillDownEnabled="true" />
+      <DataItems>
+        <Dimension DataMember="[Vendedores].[Vendedor].[Vendedor]" UniqueName="DataItem0" />
+        <Measure DataMember="[Measures].[InvDisponibleMonto]" UniqueName="DataItem1" />
+        <Measure DataMember="[Measures].[InvMontoExistencia]" UniqueName="DataItem2" />
+        <Dimension DataMember="[Fechas].[Periodo].[Periodo]" UniqueName="DataItem3" />
+        <Dimension DataMember="[Articulos].[Categoria].[Categoria]" UniqueName="DataItem4" />
+        <Dimension DataMember="[Articulos].[Grupo].[Grupo]" UniqueName="DataItem5" />
+      </DataItems>
+      <HiddenDimensions>
+        <Dimension UniqueName="DataItem3" />
+      </HiddenDimensions>
+      <Arguments>
+        <Argument UniqueName="DataItem4" />
+        <Argument UniqueName="DataItem5" />
+        <Argument UniqueName="DataItem0" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Panel 1">
+          <Series>
+            <Simple>
+              <Value UniqueName="DataItem1" />
+            </Simple>
+            <Simple>
+              <Value UniqueName="DataItem2" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Gauge ComponentName="gaugeDashboardItem1" Name="Indicador 1" DataSource="dashboardOlapDataSource2">
+      <DataItems>
+        <Measure DataMember="[Measures].[VentaNeta]" UniqueName="DataItem0" />
+        <Measure DataMember="[Measures].[Ventatotal]" UniqueName="DataItem1" />
+        <Dimension DataMember="[Fechas].[Dia].[Dia]" UniqueName="DataItem2" />
+        <Dimension DataMember="[Fechas].[Ano].[Ano]" UniqueName="DataItem3" />
+        <Dimension DataMember="[Fechas].[Fecha].[Fecha]" UniqueName="DataItem4" />
+      </DataItems>
+      <HiddenDimensions>
+        <Dimension UniqueName="DataItem2" />
+        <Dimension UniqueName="DataItem3" />
+        <Dimension UniqueName="DataItem4" />
+      </HiddenDimensions>
+      <GaugeElement>
+        <ActualValue UniqueName="DataItem0" />
+        <TargetValue UniqueName="DataItem1" />
+      </GaugeElement>
+    </Gauge>
+    <Chart ComponentName="chartDashboardItem2" Name="Gr�fico 2" DataSource="dashboardOlapDataSource3" FilterString="Not [DataItem1] In ('[Date].[Month of Year].&amp;[1]', '[Date].[Month of Year].&amp;[2]', '[Date].[Month of Year].&amp;[3]')">
+      <DataItems>
+        <Measure DataMember="[Measures].[Amount]" UniqueName="DataItem0">
+          <NumericFormat FormatType="Currency" IncludeGroupSeparator="true" />
+        </Measure>
+        <Dimension DataMember="[Date].[Month of Year].[Month of Year]" UniqueName="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument UniqueName="DataItem1" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Panel 1">
+          <Series>
+            <Simple>
+              <Value UniqueName="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <ListBox ComponentName="listBoxDashboardItem1" Name="List Box 1" DataSource="dashboardOlapDataSource3">
+      <DataItems>
+        <Dimension DataMember="[Date].[Month of Year].[Month of Year]" UniqueName="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension UniqueName="DataItem0" />
+      </FilterDimensions>
+    </ListBox>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutGroup Orientation="Vertical" Weight="32.972241029113064">
+        <LayoutItem DashboardItem="listBoxDashboardItem1" Weight="20.621468926553671" />
+        <LayoutItem DashboardItem="chartDashboardItem2" Weight="79.378531073446325" />
+      </LayoutGroup>
+      <LayoutGroup Weight="67.027758970886936">
+        <LayoutItem DashboardItem="chartDashboardItem1" Weight="50" />
+        <LayoutItem DashboardItem="gaugeDashboardItem1" Weight="50" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

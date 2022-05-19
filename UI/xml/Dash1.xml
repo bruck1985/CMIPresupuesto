@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="es-ES">
+  <Title Text="KPIs Compañía" />
+  <DataSources>
+    <SqlDataSource ComponentName="dashboardSqlDataSource1">
+      <Name>SQL Data Source 1</Name>
+      <Connection Name="localhost_Dashboard_Connection" ProviderKey="MSSqlServer">
+        <Parameters>
+          <Parameter Name="server" Value="192.168.1.3\sql2008" />
+          <Parameter Name="database" Value="Dashboard" />
+          <Parameter Name="useIntegratedSecurity" Value="False" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+          <Parameter Name="userid" Value="test" />
+          <Parameter Name="password" Value="test" />
+        </Parameters>
+      </Connection>
+      <Query Type="CustomSqlQuery" Name="CustomSqlQuery">
+        <Sql>
+          SELECT     Id, PROVINCIA, ESTACION, PLACA, MARCA, MODELO, ANO, ESTILO, CANAL, ACTIVIDAD, DET_ACTIVIDAD, INGRESO, EGRESO, MONTO, FECHA, PERIODO, EMPLEADO,
+          F18, F19, F20, F21, F22, F23
+          FROM         BUS_VENTA_ANC
+        </Sql>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 1">
+          <View Name="CustomSqlQuery">
+            <Field Name="Id" Type="Int32" />
+            <Field Name="PROVINCIA" Type="String" />
+            <Field Name="ESTACION" Type="String" />
+            <Field Name="PLACA" Type="String" />
+            <Field Name="MARCA" Type="String" />
+            <Field Name="MODELO" Type="String" />
+            <Field Name="ANO" Type="Int32" />
+            <Field Name="ESTILO" Type="String" />
+            <Field Name="CANAL" Type="String" />
+            <Field Name="ACTIVIDAD" Type="String" />
+            <Field Name="DET_ACTIVIDAD" Type="String" />
+            <Field Name="INGRESO" Type="Int32" />
+            <Field Name="EGRESO" Type="Int32" />
+            <Field Name="MONTO" Type="Int32" />
+            <Field Name="FECHA" Type="DateTime" />
+            <Field Name="PERIODO" Type="DateTime" />
+            <Field Name="EMPLEADO" Type="String" />
+            <Field Name="F18" Type="String" />
+            <Field Name="F19" Type="String" />
+            <Field Name="F20" Type="String" />
+            <Field Name="F21" Type="String" />
+            <Field Name="F22" Type="String" />
+            <Field Name="F23" Type="String" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+      <ConnectionOptions CloseConnection="true" />
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Chart ComponentName="chartDashboardItem1" Name="Ingresos por Periodo" DataSource="dashboardSqlDataSource1" DataMember="CustomSqlQuery" IsMasterFilterCrossDataSource="true">
+      <ColoringOptions MeasuresColoringMode="Hue" />
+      <InteractivityOptions MasterFilterMode="Multiple" IsDrillDownEnabled="true" />
+      <DataItems>
+        <Dimension DataMember="FECHA" DefaultId="DataItem0" />
+        <Measure DataMember="INGRESO" DefaultId="DataItem1" />
+        <Dimension DataMember="FECHA" DateTimeGroupInterval="Month" DefaultId="DataItem2" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem0" />
+        <Argument DefaultId="DataItem2" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Panel 1">
+          <Series>
+            <Simple Name="Ingresos">
+              <Value DefaultId="DataItem1" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+    <Card ComponentName="cardDashboardItem1" Name="Margenes por Sucursales" DataSource="dashboardSqlDataSource1" DataMember="CustomSqlQuery" IsMasterFilterCrossDataSource="true">
+      <InteractivityOptions MasterFilterMode="Multiple" />
+      <DataItems>
+        <Measure DataMember="INGRESO" DefaultId="DataItem0" />
+        <Measure DataMember="EGRESO" DefaultId="DataItem1" />
+        <Dimension DataMember="PROVINCIA" DefaultId="DataItem2" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension DefaultId="DataItem2" />
+      </SeriesDimensions>
+      <Card>
+        <ActualValue DefaultId="DataItem0" />
+        <TargetValue DefaultId="DataItem1" />
+        <AbsoluteVariationNumericFormat FormatType="Number" Precision="0" />
+        <PercentVariationNumericFormat FormatType="Percent" />
+        <PercentOfTargetNumericFormat FormatType="Percent" />
+      </Card>
+    </Card>
+    <Pie ComponentName="pieDashboardItem1" Name="Distribución por Modelo" DataSource="dashboardSqlDataSource1" DataMember="CustomSqlQuery" ContentArrangementMode="FixedRowCount" ShowPieCaptions="false">
+      <DataItems>
+        <Measure DataMember="INGRESO" Name="Ingresos" DefaultId="DataItem0" />
+        <Dimension DataMember="MODELO" DefaultId="DataItem2" />
+      </DataItems>
+      <Arguments>
+        <Argument DefaultId="DataItem2" />
+      </Arguments>
+      <Values>
+        <Value DefaultId="DataItem0" />
+      </Values>
+    </Pie>
+  </Items>
+  <ColorScheme>
+    <Entry DataSource="dashboardSqlDataSource1" DataMember="CustomSqlQuery" Color="-39424">
+      <DimensionKeys>
+        <DimensionKey>
+          <Definition DataMember="MODELO" />
+          <Value Type="System.String" Value="YARIS" />
+        </DimensionKey>
+      </DimensionKeys>
+    </Entry>
+    <Entry DataSource="dashboardSqlDataSource1" DataMember="CustomSqlQuery" Color="-14381631">
+      <MeasureKey>
+        <Definition DataMember="INGRESO" />
+      </MeasureKey>
+    </Entry>
+  </ColorScheme>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="cardDashboardItem1" Weight="54.397394136807819" />
+      <LayoutGroup Orientation="Vertical" Weight="45.602605863192181">
+        <LayoutItem DashboardItem="pieDashboardItem1" Weight="50" />
+        <LayoutItem DashboardItem="chartDashboardItem1" Weight="50" />
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

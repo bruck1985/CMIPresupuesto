@@ -1,0 +1,260 @@
+﻿
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.divEncabezado {
+    position:fixed;
+    top:0;
+    height: 40px;
+    z-index:1000;
+    width: 100%;
+
+    /*Efecto degradado*/
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(114, 122, 134)),to(rgb(80, 88, 100)));
+    background-image: -webkit-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -moz-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -o-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: -ms-linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+    background-image: linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+}
+
+    .divEncabezado .btn_menu {
+        float: left;
+        margin-left:5px;
+        margin-top: 10px;
+        cursor:pointer;
+    }
+
+        .divEncabezado .btn_menu .navicon-line {
+            background: #fff;
+            border-radius: 1px;
+            height: 4px;
+            margin-bottom: 3px;
+            width: 24px;
+        }
+
+    .divEncabezado .LN_CerrarSesion {
+        float: right;
+        margin-right: 5px;
+        cursor:pointer;
+    }
+
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ul ul {
+    margin: 0;                                           /*Margen superior*/
+    padding: 0;                                         /*Elimina margen izquierdo*/
+    list-style: none;                                   /*Elimina las viñetas*/
+}
+
+#wrapper {
+    background-color: #32373d;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    left: -100%;
+    margin-top: 40px;
+    width: 25%;
+    font-size: 0.8125em;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+}
+
+    #wrapper .aCopyrigth {
+        color: #fff;
+    }
+
+/*Le da la transparencia al scroll*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+#Contenido {
+    margin-top: 40px;
+    position:relative;
+    text-align:center;
+}
+
+
+.menu {
+    background: #32373d;
+    height:95%;
+}
+
+    .menu > li > a {
+        background-color: #616975;
+        border-bottom: 1px solid #33373d;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #878e98;
+    -moz-box-shadow: inset 0px 1px 0px 0px #878e98;
+    box-shadow: inset 0px 1px 0px 0px #878e98;
+    width: 100%;
+    height: 2.75em;
+    line-height: 2.75em;
+    text-indent: 2.75em;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, .5);
+    top: -40px;
+    left: 10px;
+    background-image: linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+}
+
+    /*Sub Menu*/
+
+    .menu ul li a {
+        background: #fff;
+        border-bottom: 1px solid #efeff0;
+        width: 100%;
+        height: 2.75em;
+        line-height: 2.75em;
+        text-indent: 2.75em;
+        display: block;
+        position: relative;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 0.923em;
+        font-weight: 400;
+        color: #878d95;
+    }
+
+    .menu ul li:last-child a {
+        border-bottom: 1px solid #33373d;
+    }
+
+    /*Active Hover*/
+
+
+
+    .menu > li > a:hover,
+    .menu > li > a.active {
+        background-color: #35afe3;
+        border-bottom: 1px solid #103c56;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #6ad2ef;
+    -moz-box-shadow: inset 0px 1px 0px 0px #6ad2ef;
+    box-shadow: inset 0px 1px 0px 0px #6ad2ef;
+    background-image: linear-gradient(top, rgb(69, 199, 235), rgb(38, 152, 219));
+}
+
+    .menu > li > a.active {
+        border-bottom: 1px solid #1a638f;
+    }
+
+    .menu > li > a:before {
+        content: '';
+        background-repeat: no-repeat;
+        font-size: 36px;
+        height: 1em;
+        width: 1em;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        margin: -.5em 0 0 0;
+    }
+
+
+
+
+    /*Sub Menu Numbers and Arrow*/
+
+
+
+
+    .menu > li > ul li a:before {
+        content: '▶';
+        font-size: 8px;
+        color: #bcbcbf;
+        position: absolute;
+        width: 1em;
+        height: 1em;
+        top: 0;
+        left: -2.7em;
+    }
+
+
+
+
+
+
+    /*Cambia el color al posicionarse sobre el*/
+
+
+    .menu > li > ul li:hover a,
+    .menu > li > ul li:hover a:before {
+        color: #32373D;
+    }
+
+
+.divMenu_cerrar {
+    right: -100%;
+    max-width: 200px;
+    width: 70%;
+    margin-right: 1px;
+    font-size: 0.8125em;
+    position: fixed;
+    z-index:99;
+}
+
+    .divMenu_cerrar .menu_cerrar {
+        background: #32373d;
+        -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+        box-shadow: 0px 1px 3px 0px rgba(0,0,0,.73), 0px 0px 18px 0px rgba(0,0,0,.13);
+    }
+
+        .divMenu_cerrar .menu_cerrar li {
+            background-color: #616975;
+            background-image: linear-gradient(top, rgb(114, 122, 134), rgb(80, 88, 100));
+            }
+
+            .divMenu_cerrar .menu_cerrar li a {
+                border-bottom: 1px solid #33373d;
+                -webkit-box-shadow: inset 0px 1px 0px 0px #878e98;
+                -moz-box-shadow: inset 0px 1px 0px 0px #878e98;
+                box-shadow: inset 0px 1px 0px 0px #878e98;
+                width: 100%;
+                height: 2.75em;
+                line-height: 2.75em;
+                display: block;
+                text-align: center;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-weight: 600;
+                color: #fff;
+                text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+            }
+
+
+                /*Active Hover*/
+
+                .divMenu_cerrar .menu_cerrar li a:hover {
+                    background-color: #35afe3;
+                    border-bottom: 1px solid #103c56;
+                    -webkit-box-shadow: inset 0px 1px 0px 0px #6ad2ef;
+                    -moz-box-shadow: inset 0px 1px 0px 0px #6ad2ef;
+                    box-shadow: inset 0px 1px 0px 0px #6ad2ef;
+                    background-image: linear-gradient(top, rgb(69, 199, 235), rgb(38, 152, 219));
+                }
+
+
+@media screen and (min-width:300px) and (max-width:800px) {
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
+}
